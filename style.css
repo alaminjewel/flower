@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:  'Roboto', sans-serif;
+    font-weight: 400;
+}
+.flex{
+    display:flex;
+    align-items: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.hero-section{
+    background-color: #E554731A;
+    padding-left: 40px;
+}
+.hero-section h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #272727;
+}
+.hero-section p{
+    padding: 20px 0;
+    color: #272727;
+    line-height: 1.5;
+}
+.hero-section button{
+    padding: 15px;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.hero-section.img{
+    padding-right: 40px;
+}
+.hero-section.img img{
+    width: 635px;
+    height: 800px;
+}
+.featured{
+    margin: 0 200px;
+}
+.featured .content{
+    text-align: center;
+}
+.featured .content h2{
+    font-size: 30px;
+    color: #272727;
+    margin-bottom: 20px;
+}
+.featured .img{
+    justify-content: space-between;
+    gap: 20px;
+}
+.one, .two, .three{
+    width: 300px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+}
+.one{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.two{
+    background-color:rgba(167, 33, 98, 0.15);
+}
+.three{
+    background: rgba(71, 125, 17, 0.15);
+}
+.insta{
+    margin: 0 200px;
+}
+.insta .content{
+    text-align: center;
+}
+.insta p{
+    padding: 18px 0;
+}
+.insta .pictures{
+    gap: 12px;
+}
+.insta img{
+    display: block;
+    width: 250px;
+}
+
+footer{
+    background-color: #1d1b1b;
+    text-align: center;
+    padding: 150px 0;
+}
+footer span{
+    color: #E55473;
+}
+footer h2{
+    color: #cacaca;
+}
+footer p{
+    color: #cacaca;
+    padding: 10px 0;
+}
